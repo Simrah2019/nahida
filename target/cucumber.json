@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify user can login with valid card",
+        "description": "",
+        "id": "this-is-a-login-feature-sprint1;verify-user-can-login-with-valid-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 791965800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "open \"\u003cURL\u003e\" Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 6
+                }
+              ],
+              "location": "LoginSprint1.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2055522800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click Login Link",
+            "match": {
+              "location": "LoginSprint1.click_Login_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309907500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter username password",
+            "match": {
+              "location": "LoginSprint1.enter_username_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10316378000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify user can login with valid card",
+            "match": {
+              "location": "LoginSprint1.verify_user_can_login_with_valid_card()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@nahida2"
+          }
+        ]
+      }
+    ],
+    "name": "This is a Login feature Sprint1",
+    "description": "",
+    "id": "this-is-a-login-feature-sprint1",
+    "keyword": "Feature",
+    "uri": "LoginSprint1.feature"
+  }
+]
